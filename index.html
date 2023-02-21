@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Match Game</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Unlock&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans:wght@400;700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+    <script src="js/script.js" defer></script>
+  </head>
+
+  <body>
+    
+    <div class="max-width-wrapper">
+      <header>
+        <div class="card-wrapper">
+          <div class="card-1"></div>
+          <div class="card-2"></div>
+        </div>
+        
+        <div class="h1-wrapper">
+          <h1>Card Match Game</h1>
+        </div> 
+      </header>
+      <p class="message"></p>
+      
+      <div class="card-display-wrapper hide">
+      
+      </div>
+      
+      
+      <div class="table-wrapper hide">
+        <table>
+          <thead>
+              <tr>
+                  <th colspan="2">Enter Vocabulary here</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td><input class="word" type="text" name="vocab[word]" placeholder="word"></td>
+                  <td><input class="meaning" type="text" name="vocab[meaning]" placeholder="meaning"></td>
+              </tr>
+              <tr>
+                <td><input class="word" type="text" name="word" placeholder="word"></td>
+                <td><input class="meaning" type="text" name="meaning" placeholder="meaning"></td>
+              </tr>
+              <tr>
+                <td><input class="word" type="text" name="word" placeholder="word"></td>
+                <td><input class="meaning" type="text" name="meaning" placeholder="meaning"></td>
+              </tr>
+              <tr>
+                <td><input class="word" type="text" name="word" placeholder="word"></td>
+                <td><input class="meaning" type="text" name="meaning" placeholder="meaning"></td>
+              </tr>
+              <tr>
+                <td><input class="word" type="text" name="word" placeholder="word"></td>
+                <td><input class="meaning" type="text" name="meaning" placeholder="meaning"></td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <button class="play hide">Play!</button>
+      <button class="play-again hide">Play Again!</button>
+    </div>
+  </body>
+
+</html>
